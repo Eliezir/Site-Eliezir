@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/* "em" e % vão se adequar ao tamanho de fonte setado como padrão no navegador, px é estático */
+h1{
+    font-size: 5.625rem;
+    font-family:'Gochi Hand',serif;
+    margin:50px auto 0 auto;
+    color: #2fade7;
+}
+
+h2{
+    font-family:'BhuTuka Expanded One';
+    color: #2fade7;
+}
+
+h3{
+    color:#4e119e;
+    font-family:'Nova Mono';
+}
+
+.programmer{
+    font-family:'VT323';
+    margin: 0;
+    font-weight: normal;
+    
+}
+
+.n1{
+    position:absolute;
+    right: 750px;
+    top:65px;
+}
+.n2{
+    position:absolute;
+    bottom:300px;
+    left:300px;
+}
+
+.top{
+    background-color:lightblue;
+    position: relative;
+    padding-top: 100px;
+}
+
+.perfil{
+    border-radius:50%;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto;
+    text-align:left;
+}
+
+
+.skill-row p{
+        line-height:2;
+}
+
+.icones{
+    float:left;
+    margin-right:30px;
+}
+
+.icones2{
+    float:right;
+    margin-left:30px;
+}
+
+img.icones:first-of-type,img.icones2:last-of-type{
+  margin-top:-30px;
+}
