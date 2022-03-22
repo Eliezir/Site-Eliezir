@@ -83,7 +83,7 @@ footer p {
 }
 
 .top {
-    background-color: lightblue;
+    background-color: rgb(87, 209, 250);
     position: relative;
     padding-top: 100px;
 }
@@ -123,6 +123,7 @@ img.icones2:last-of-type {
 }
 
 .btn {
+    margin: auto 15px;
     background: #743d94;
     background-image: linear-gradient(to bottom, #743d94, #743d94);
     border-radius: 13px;
@@ -141,3 +142,5 @@ img.icones2:last-of-type {
     background-image: -o-linear-gradient(top, #d194f7, #d194f7);
     background-image: linear-gradient(to bottom, #d194f7, #d194f7);
 }
+
+
